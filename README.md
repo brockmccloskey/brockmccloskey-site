@@ -1,26 +1,13 @@
-# Brock McCloskey Portfolio Website
+Portfolio website for Brock McCloskey.
 
-This repository contains the source for my professional portfolio website.
-
-The site highlights my experience in documentation engineering, AI-assisted documentation, documentation operations, and scalable content architecture. It is version controlled with Git and automatically deployed using GitHub Pages.
-
-## Technologies
-
-- HTML5
-- CSS3
-- Git
+Built with:
+- HTML
+- CSS
 - GitHub Pages
-- Google Analytics (GA4)
 
-## Website
+Automatically deployed through GitHub Pages.
 
-https://brockmccloskey.github.io/brockmccloskey-site/
-
-## Topics
-
-- Documentation Engineering
-- Technical Writing
-- AI-assisted Documentation
-- Documentation Operations
-- Git
-- GitHub Pages
+Future roadmap:
+- Case studies
+- Documentation architecture
+- AI workflow examples
