@@ -1,30 +1,42 @@
-<<<<<<< HEAD
-# Brock McCloskey Website
+# Brock McCloskey Portfolio Website
 
-Static personal website for GitHub Pages.
+This repository contains the source code for my professional portfolio website.
 
-## Files
+The site showcases my experience in documentation engineering, documentation modernization, AI-assisted documentation workflows, and documentation operations. It is built with HTML and CSS, version controlled with Git, and automatically deployed using GitHub Pages.
 
-- `index.html` — main one-page website
-- `styles.css` — styling
-- `script.js` — mobile navigation and footer year
-- `docs/` — downloadable resume
+## Technologies
 
-## GitHub Pages
-
-Upload these files to the root of the website repository. The zip does not contain an extra top-level folder.
-=======
-Portfolio website for Brock McCloskey.
-
-Built with:
-- HTML
-- CSS
+- HTML5
+- CSS3
+- Git
 - GitHub Pages
+- Google Analytics (GA4)
 
-Automatically deployed through GitHub Pages.
+## Website
 
-Future roadmap:
-- Case studies
-- Documentation architecture
-- AI workflow examples
->>>>>>> 7eb95fcb022a8c913927f0ead288c33ead1f4b84
+https://brockmccloskey.github.io/brockmccloskey-site/
+
+## About Me
+
+I'm a Principal Technical Writer with more than 20 years of experience helping software companies modernize documentation through scalable content architecture, AI-assisted workflows, documentation operations, and information architecture.
+
+## Repository
+
+This repository demonstrates a simple Git-based workflow:
+
+- Source-controlled website development
+- Automatic deployment through GitHub Pages
+- Continuous improvement through versioned releases
+
+## Future Enhancements
+
+- Documentation modernization case studies
+- AI workflow demonstrations
+- Documentation architecture examples
+- Additional project portfolio content
+
+## License
+
+The source code for this website is licensed under the MIT License.
+
+The content of this website, including text, résumé content, and branding, is © Brock McCloskey. All rights reserved unless otherwise noted.
