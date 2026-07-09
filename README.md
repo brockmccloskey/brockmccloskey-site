@@ -1,39 +1,26 @@
-# Brock McCloskey Portfolio Site
+# Brock McCloskey Portfolio Website
 
-Version 1.2
+This repository contains the source for my professional portfolio website.
 
-## What's new
+The site highlights my experience in documentation engineering, AI-assisted documentation, documentation operations, and scalable content architecture. It is version controlled with Git and automatically deployed using GitHub Pages.
 
-- Stronger homepage positioning around documentation modernization.
-- Added case studies for Trintech, NextAxiom, and Equinix.
-- Added Technologies & Methods section.
-- Added Google Analytics 4 placeholder.
-- Added release notes section to demonstrate iterative documentation habits.
+## Technologies
 
-## Publishing to GitHub Pages
+- HTML5
+- CSS3
+- Git
+- GitHub Pages
+- Google Analytics (GA4)
 
-1. Copy these files into the root of your `brockmccloskey-site` repository.
-2. Commit the changes.
-3. Push to GitHub.
-4. GitHub Pages should redeploy automatically.
+## Website
 
-```bash
-git add .
-git commit -m "Release site version 1.2"
-git push
-```
+https://brockmccloskey.github.io/brockmccloskey-site/
 
-## Google Analytics setup
+## Topics
 
-1. Create a GA4 property in Google Analytics.
-2. Copy the Measurement ID, which looks like `G-XXXXXXXXXX`.
-3. Open `index.html`.
-4. Find the Google Analytics block in the `<head>`.
-5. Replace both instances of `G-XXXXXXXXXX` with your Measurement ID.
-6. Remove the surrounding HTML comment markers to enable the script.
-
-## Notes before publishing
-
-- Confirm the email address is the one you want public.
-- Confirm the LinkedIn and GitHub links are correct.
-- Add a resume PDF later if desired.
+- Documentation Engineering
+- Technical Writing
+- AI-assisted Documentation
+- Documentation Operations
+- Git
+- GitHub Pages
