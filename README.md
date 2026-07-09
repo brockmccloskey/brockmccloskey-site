@@ -40,3 +40,12 @@ This repository demonstrates a simple Git-based workflow:
 The source code for this website is licensed under the MIT License.
 
 The content of this website, including text, résumé content, and branding, is © Brock McCloskey. All rights reserved unless otherwise noted.
+
+## Releases
+
+### Version 1.2
+- Updated professional positioning
+- Added AI Workflow Modernization content
+- Expanded Documentation Operations section
+- Improved technology organization
+- Added GitHub Pages deployment workflow
