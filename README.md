@@ -14,7 +14,7 @@ The site showcases my experience in documentation engineering, documentation mod
 
 ## Website
 
-https://brockmccloskey.github.io/brockmccloskey-site/
+https://brockmccloskey.com
 
 ## About Me
 
