@@ -1,13 +1,13 @@
 # Brock McCloskey Portfolio Site
 
-Version 2.1
+Version 2.1.1
 
 ## What's new
 
 - Updated the page title and meta description for search visibility.
 - Added a canonical URL for `https://brockmccloskey.com/`.
 - Added Open Graph metadata and a social preview image.
-- Added a custom favicon.
+- Added a custom Documentation Architecture favicon.
 - Added `robots.txt` and `sitemap.xml`.
 - Added Schema.org `Person` structured data.
 
@@ -22,7 +22,7 @@ No visible page content was changed in this release.
 
 ```bash
 git add .
-git commit -m "Release site version 2.1: SEO and discoverability"
+git commit -m "Release site version 2.1.1: documentation architecture favicon"
 git push
 ```
 
