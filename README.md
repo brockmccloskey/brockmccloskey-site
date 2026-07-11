@@ -1,51 +1,43 @@
-# Brock McCloskey Portfolio Website
+# Brock McCloskey Portfolio Site
 
-This repository contains the source code for my professional portfolio website.
+Version 2.1
 
-The site showcases my experience in documentation engineering, documentation modernization, AI-assisted documentation workflows, and documentation operations. It is built with HTML and CSS, version controlled with Git, and automatically deployed using GitHub Pages.
+## What's new
 
-## Technologies
+- Updated the page title and meta description for search visibility.
+- Added a canonical URL for `https://brockmccloskey.com/`.
+- Added Open Graph metadata and a social preview image.
+- Added a custom favicon.
+- Added `robots.txt` and `sitemap.xml`.
+- Added Schema.org `Person` structured data.
 
-- HTML5
-- CSS3
-- Git
-- GitHub Pages
-- Google Analytics (GA4)
+No visible page content was changed in this release.
 
-## Website
+## Publishing to GitHub Pages
 
-https://brockmccloskey.com
+1. Copy these files into the root of your `brockmccloskey-site` repository.
+2. Commit the changes.
+3. Push to GitHub.
+4. GitHub Pages should redeploy automatically.
 
-## About Me
+```bash
+git add .
+git commit -m "Release site version 2.1: SEO and discoverability"
+git push
+```
 
-I'm a Principal Technical Writer with more than 20 years of experience helping software companies modernize documentation through scalable content architecture, AI-assisted workflows, documentation operations, and information architecture.
+## After publishing
 
-## Repository
+- Confirm `https://brockmccloskey.com/robots.txt` loads.
+- Confirm `https://brockmccloskey.com/sitemap.xml` loads.
+- Submit the sitemap in Google Search Console.
+- Use URL Inspection in Search Console to request indexing for the homepage.
 
-This repository demonstrates a simple Git-based workflow:
+## Google Analytics setup
 
-- Source-controlled website development
-- Automatic deployment through GitHub Pages
-- Continuous improvement through versioned releases
-
-## Future Enhancements
-
-- Documentation modernization case studies
-- AI workflow demonstrations
-- Documentation architecture examples
-- Additional project portfolio content
-
-## License
-
-The source code for this website is licensed under the MIT License.
-
-The content of this website, including text, résumé content, and branding, is © Brock McCloskey. All rights reserved unless otherwise noted.
-
-## Releases
-
-### Version 1.2
-- Updated professional positioning
-- Added AI Workflow Modernization content
-- Expanded Documentation Operations section
-- Improved technology organization
-- Added GitHub Pages deployment workflow
+1. Create a GA4 property in Google Analytics.
+2. Copy the Measurement ID, which looks like `G-XXXXXXXXXX`.
+3. Open `index.html`.
+4. Find the Google Analytics block in the `<head>`.
+5. Replace both instances of `G-XXXXXXXXXX` with your Measurement ID.
+6. Remove the surrounding HTML comment markers to enable the script.
