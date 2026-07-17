@@ -1,43 +1,69 @@
 # Brock McCloskey Portfolio Site
 
-Version 2.1.1
+Version 3.0.4 — Documentation Engineering Edition
 
 ## What's new
 
-- Updated the page title and meta description for search visibility.
-- Added a canonical URL for `https://brockmccloskey.com/`.
-- Added Open Graph metadata and a social preview image.
-- Added a custom Documentation Architecture favicon.
-- Added `robots.txt` and `sitemap.xml`.
-- Added Schema.org `Person` structured data.
+- Replaced the reconstructed homepage SVG with the approved workflow artwork.
+- Removed the duplicate name and title from the hero; the navigation brand remains.
+- Preserved the `100+ reusable snippets` metric.
+- Added optimized WebP and PNG versions of the hero artwork.
 
-No visible page content was changed in this release.
+- Added the release-candidate homepage diagram with cleaner product-diagram alignment, AI assistance throughout, Publish directly above Customers, and a larger visual.
+- Updated the metric to `100+ reusable snippets`.
+
+- Refined the homepage workflow diagram so AI assists throughout the process and Publish feeds directly into Customers.
+
+- Reframed the home page around documentation engineering and business outcomes.
+- Added a custom documentation architecture illustration.
+- Added dedicated case-study pages for Trintech, NextAxiom, and Equinix.
+- Added a Documentation Health Check service page.
+- Added a Resources library with four evergreen documentation engineering articles.
+- Added stronger calls to action, metrics, and consulting-oriented language.
+- Expanded SEO metadata and the sitemap for all public pages.
+- Preserved the custom-domain `CNAME` file and added `.nojekyll`.
+
+## Files that must remain in the repository root
+
+- `CNAME`
+- `.nojekyll`
+- `index.html`
+- `robots.txt`
+- `sitemap.xml`
+
+The `CNAME` file contains `brockmccloskey.com`. Do not remove it when replacing site files.
 
 ## Publishing to GitHub Pages
 
-1. Copy these files into the root of your `brockmccloskey-site` repository.
-2. Commit the changes.
-3. Push to GitHub.
-4. GitHub Pages should redeploy automatically.
+1. Back up or commit your current site.
+2. Extract this ZIP directly into the root of the `brockmccloskey-site` repository.
+3. Confirm that `CNAME` is still present before committing.
+4. Commit and push.
 
 ```bash
 git add .
-git commit -m "Release site version 2.1.1: documentation architecture favicon"
+git commit -m "Release site version 3.0: documentation engineering edition"
 git push
 ```
 
-## After publishing
+## Smoke test after publishing
 
+- Open `https://brockmccloskey.com/`
+- Confirm the favicon appears.
+- Open each navigation link.
+- Confirm the three case studies load.
+- Confirm the Documentation Health Check and Resources pages load.
 - Confirm `https://brockmccloskey.com/robots.txt` loads.
 - Confirm `https://brockmccloskey.com/sitemap.xml` loads.
-- Submit the sitemap in Google Search Console.
-- Use URL Inspection in Search Console to request indexing for the homepage.
+- Confirm GitHub Pages still lists `brockmccloskey.com` as the custom domain.
 
 ## Google Analytics setup
 
-1. Create a GA4 property in Google Analytics.
-2. Copy the Measurement ID, which looks like `G-XXXXXXXXXX`.
-3. Open `index.html`.
-4. Find the Google Analytics block in the `<head>`.
-5. Replace both instances of `G-XXXXXXXXXX` with your Measurement ID.
-6. Remove the surrounding HTML comment markers to enable the script.
+The GA4 placeholder remains in each page.
+
+1. Create or open the GA4 property.
+2. Copy the Measurement ID, such as `G-XXXXXXXXXX`.
+3. Replace both instances of `G-XXXXXXXXXX` in each HTML page.
+4. Remove the surrounding HTML comment markers to enable the script.
+
+A later release can centralize analytics injection through a build step, but this version remains framework-free and directly deployable.
